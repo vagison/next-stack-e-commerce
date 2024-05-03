@@ -25,9 +25,9 @@ To run the API, follow these steps:
 Create a .env file in the root of the project and configure the environment variables listed in .env.dist:
 
 ## Seeding (optional)
-To use the seeding function:
--Ensure you have MongoDB running and have configured the connection URI via dbConfig through .env.
--Call the seed function with the desired number of mock products, instead of ```number``` to generate and insert into the database: ```npm run seed number```.
+To use the seeding functionality:
+1. Ensure you have MongoDB running and have configured the connection URI via dbConfig through .env.
+2. Call the seed function with the desired number of mock products, instead of ```number``` to generate and insert into the database: ```npm run seed number```.
 
 ## API description
 app.js is the entry point of the app. It starts the server, initiates the the database connection and more:
