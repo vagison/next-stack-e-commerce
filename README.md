@@ -3,6 +3,7 @@ This file describes the installation process of the e-commerce API for Node JS t
 
 ## Pre-installation Setup
 1. Create a MongoDB cluster to serve as the database. In the .env file, assign the variables listed in .env.dist with your credentials.
+2. Install ts-node and tsc packages globally through ```npm i -g ts-node tsc```
 
 ## Installation
 To install the API, follow these steps:
