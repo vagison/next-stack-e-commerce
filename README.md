@@ -56,8 +56,8 @@ Server-side entities
 ## Using API endpoints
 To use the endpoints, you can visit the Postman URL below and then either fork or download the collection:
 
-https://www.postman.com/gold-sunset-623184/workspace/nextstack/collection/28061437-4602930d-a416-4931-9133-75346e8e65fd?action=share&creator=28061437
+https://www.postman.com/grey-equinox-5383/workspace/d2829742-cad9-4980-812b-0c5fe19db744/collection/24141891-a1c31902-f240-456c-b79d-e758880a8053
 
 The request names are self-explanatory, and any additional information can be found within the requests themselves.
 
-Note that the local variable "baseURL" should be manually set in your Postman client according to your usage (default is http://localhost:3000).
+Note that the local variable "baseURL" should be manually set in your Postman client (in Environments section) according to your usage (default is http://localhost:3000).

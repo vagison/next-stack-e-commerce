@@ -1,4 +1,4 @@
-import { Schema } from 'express-validator'
+import { Schema } from 'express-validator';
 
 const productValidationSchema: Schema = {
   name: {
@@ -37,12 +37,12 @@ const productValidationSchema: Schema = {
     },
     errorMessage: 'Stock is required and must be an integer',
   },
-}
+};
 
 // TODO: Validation should go here
-const orderValidationSchema: Schema = {}
+const orderValidationSchema: Schema = {};
 
 // TODO: Validation should go here
-const userValidationSchema: Schema = {}
+const userValidationSchema: Schema = {};
 
-export { productValidationSchema, orderValidationSchema, userValidationSchema }
+export { productValidationSchema, orderValidationSchema, userValidationSchema };

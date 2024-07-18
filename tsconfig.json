@@ -10,7 +10,8 @@
   },
   "include": [
     "src/**/*.ts",
-    "node_modules/@types"
+    "node_modules/@types",
+    "src/config/index.js"
   ],
   "exclude": [
     "node_modules"
